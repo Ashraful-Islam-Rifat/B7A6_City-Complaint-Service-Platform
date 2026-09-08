@@ -25,16 +25,12 @@
 {
   "name": "final",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx watch src/server.ts",
-    "build": "prisma generate && tsc -p tsconfig.prod.json",
-    "postinstall": "prisma generate",
-    "start": "node dist/server.js",
-    "seed": "tsx prisma/seed.ts"
-  },
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
+},
   "prisma": {
     "seed": "tsx prisma/seed.ts"
   },
