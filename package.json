@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "postinstall": "prisma generate"
+  }
+}
+{
   "name": "final",
   "version": "1.0.0",
   "description": "",
