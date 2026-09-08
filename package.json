@@ -1,5 +1,11 @@
 {
   "scripts": {
+    "postinstall": "echo 'Skipping prisma generate for now'",
+    "build": "next build"  // অথবা আপনার build কমান্ড
+  }
+}
+{
+  "scripts": {
     "postinstall": "prisma generate"
   }
 }
