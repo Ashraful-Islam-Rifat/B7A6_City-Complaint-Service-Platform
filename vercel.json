@@ -1,4 +1,3 @@
-mv vercel.json vercel.json.bak
 {
     "version": 2,
     "builds": [
